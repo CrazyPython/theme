@@ -1,5 +1,6 @@
-import React, { PropTypes } from 'react';
-import hoistStatics from 'hoist-non-react-statics';
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import * as _ from 'lodash';
 import normalizeStyle from './StyleNormalizer/normalizeStyle';
 
