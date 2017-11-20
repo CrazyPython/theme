@@ -8,7 +8,7 @@ import Theme, { ThemeShape } from './Theme';
 export default class StyleProvider extends React.Component {
   static propTypes = {
     children: PropTypes.element.isRequired,
-    style: PropTypes.object,
+    style: React.PropTypes.object,
   };
 
   static defaultProps = {
